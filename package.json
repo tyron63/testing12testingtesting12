@@ -1,0 +1,31 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "@ionic-native/file": "^4.20.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.18.3",
+    "chart.js": "^2.9.3",
+    "compression": "1.7.3",
+    "config": "^3.3.1",
+    "express": "4.16.3",
+    "express-validator": "^6.6.0",
+    "indicative": "^7.4.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "morgan": "1.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "4.0.1",
+    "nodemon": "1.18.4"
+  }
+}
