@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@ionic-native/file": "^5.27.0",
-    "axios": ">=0.19.0",
+    "axios": ">=0.21.1",
     "chart.js": "^2.9.3",
     "email-prop-type": "3.0.0",
     "prop-types": "15.6.2",
